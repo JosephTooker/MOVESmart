@@ -3,19 +3,24 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		589656A006673957AD8BC503 /* Pods_Sign_Reader3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D405A3B2542A6C1EA23F25DD /* Pods_Sign_Reader3.framework */; };
 		B8518D4126FBAB1600CE5244 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8518D4026FBAB1600CE5244 /* AppDelegate.swift */; };
 		B8518D4326FBAB1600CE5244 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8518D4226FBAB1600CE5244 /* SceneDelegate.swift */; };
 		B8518D4526FBAB1600CE5244 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8518D4426FBAB1600CE5244 /* ViewController.swift */; };
 		B8518D4826FBAB1600CE5244 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8518D4626FBAB1600CE5244 /* Main.storyboard */; };
 		B8518D4A26FBAB1700CE5244 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8518D4926FBAB1700CE5244 /* Assets.xcassets */; };
 		B8518D4D26FBAB1700CE5244 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8518D4B26FBAB1700CE5244 /* LaunchScreen.storyboard */; };
+		B8518D5526FBAD0E00CE5244 /* TapScreen.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B8518D5426FBAD0E00CE5244 /* TapScreen.mp3 */; };
+		B8518D5726FBAFF200CE5244 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8518D5626FBAFF200CE5244 /* ImageViewController.swift */; };
+		B857D0952729CE690064D380 /* testImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B857D0942729CE690064D380 /* testImage.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B68D3F3E282959CD29F0CC33 /* Pods-Sign_Reader3.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sign_Reader3.release.xcconfig"; path = "Target Support Files/Pods-Sign_Reader3/Pods-Sign_Reader3.release.xcconfig"; sourceTree = "<group>"; };
 		B8518D3D26FBAB1600CE5244 /* Sign_Reader3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sign_Reader3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8518D4026FBAB1600CE5244 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B8518D4226FBAB1600CE5244 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +29,11 @@
 		B8518D4926FBAB1700CE5244 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B8518D4C26FBAB1700CE5244 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B8518D4E26FBAB1700CE5244 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8518D5426FBAD0E00CE5244 /* TapScreen.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = TapScreen.mp3; sourceTree = "<group>"; };
+		B8518D5626FBAFF200CE5244 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		B857D0942729CE690064D380 /* testImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = testImage.jpg; sourceTree = "<group>"; };
+		C03A327033289B0699A594DD /* Pods-Sign_Reader3.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sign_Reader3.debug.xcconfig"; path = "Target Support Files/Pods-Sign_Reader3/Pods-Sign_Reader3.debug.xcconfig"; sourceTree = "<group>"; };
+		D405A3B2542A6C1EA23F25DD /* Pods_Sign_Reader3.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sign_Reader3.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +41,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				589656A006673957AD8BC503 /* Pods_Sign_Reader3.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2BFB283B2F43EE1C5A998B71 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C03A327033289B0699A594DD /* Pods-Sign_Reader3.debug.xcconfig */,
+				B68D3F3E282959CD29F0CC33 /* Pods-Sign_Reader3.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		3E2F88749D45388B344CB774 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D405A3B2542A6C1EA23F25DD /* Pods_Sign_Reader3.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B8518D3426FBAB1600CE5244 = {
 			isa = PBXGroup;
 			children = (
 				B8518D3F26FBAB1600CE5244 /* Sign_Reader3 */,
 				B8518D3E26FBAB1600CE5244 /* Products */,
+				2BFB283B2F43EE1C5A998B71 /* Pods */,
+				3E2F88749D45388B344CB774 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,9 +86,12 @@
 		B8518D3F26FBAB1600CE5244 /* Sign_Reader3 */ = {
 			isa = PBXGroup;
 			children = (
+				B8518D5426FBAD0E00CE5244 /* TapScreen.mp3 */,
+				B857D0942729CE690064D380 /* testImage.jpg */,
 				B8518D4026FBAB1600CE5244 /* AppDelegate.swift */,
 				B8518D4226FBAB1600CE5244 /* SceneDelegate.swift */,
 				B8518D4426FBAB1600CE5244 /* ViewController.swift */,
+				B8518D5626FBAFF200CE5244 /* ImageViewController.swift */,
 				B8518D4626FBAB1600CE5244 /* Main.storyboard */,
 				B8518D4926FBAB1700CE5244 /* Assets.xcassets */,
 				B8518D4B26FBAB1700CE5244 /* LaunchScreen.storyboard */,
@@ -74,9 +107,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B8518D5126FBAB1700CE5244 /* Build configuration list for PBXNativeTarget "Sign_Reader3" */;
 			buildPhases = (
+				447740363C2862D60893C74C /* [CP] Check Pods Manifest.lock */,
 				B8518D3926FBAB1600CE5244 /* Sources */,
 				B8518D3A26FBAB1600CE5244 /* Frameworks */,
 				B8518D3B26FBAB1600CE5244 /* Resources */,
+				B8FA0D9B4452978060AF7D08 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,13 +159,57 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8518D5526FBAD0E00CE5244 /* TapScreen.mp3 in Resources */,
 				B8518D4D26FBAB1700CE5244 /* LaunchScreen.storyboard in Resources */,
 				B8518D4A26FBAB1700CE5244 /* Assets.xcassets in Resources */,
 				B8518D4826FBAB1600CE5244 /* Main.storyboard in Resources */,
+				B857D0952729CE690064D380 /* testImage.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		447740363C2862D60893C74C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sign_Reader3-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8FA0D9B4452978060AF7D08 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sign_Reader3/Pods-Sign_Reader3-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sign_Reader3/Pods-Sign_Reader3-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Sign_Reader3/Pods-Sign_Reader3-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B8518D3926FBAB1600CE5244 /* Sources */ = {
@@ -139,6 +218,7 @@
 			files = (
 				B8518D4526FBAB1600CE5244 /* ViewController.swift in Sources */,
 				B8518D4126FBAB1600CE5244 /* AppDelegate.swift in Sources */,
+				B8518D5726FBAFF200CE5244 /* ImageViewController.swift in Sources */,
 				B8518D4326FBAB1600CE5244 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,6 +363,7 @@
 		};
 		B8518D5226FBAB1700CE5244 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C03A327033289B0699A594DD /* Pods-Sign_Reader3.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +383,7 @@
 		};
 		B8518D5326FBAB1700CE5244 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B68D3F3E282959CD29F0CC33 /* Pods-Sign_Reader3.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
