@@ -17,6 +17,7 @@
 		B8518D5526FBAD0E00CE5244 /* TapScreen.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B8518D5426FBAD0E00CE5244 /* TapScreen.mp3 */; };
 		B8518D5726FBAFF200CE5244 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8518D5626FBAFF200CE5244 /* ImageViewController.swift */; };
 		B857D0952729CE690064D380 /* testImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B857D0942729CE690064D380 /* testImage.jpg */; };
+		B8780004274C969D00EB7F99 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8780003274C969D00EB7F99 /* MapViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		B8518D5426FBAD0E00CE5244 /* TapScreen.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = TapScreen.mp3; sourceTree = "<group>"; };
 		B8518D5626FBAFF200CE5244 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 		B857D0942729CE690064D380 /* testImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = testImage.jpg; sourceTree = "<group>"; };
+		B8780003274C969D00EB7F99 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		C03A327033289B0699A594DD /* Pods-Sign_Reader3.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sign_Reader3.debug.xcconfig"; path = "Target Support Files/Pods-Sign_Reader3/Pods-Sign_Reader3.debug.xcconfig"; sourceTree = "<group>"; };
 		D405A3B2542A6C1EA23F25DD /* Pods_Sign_Reader3.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sign_Reader3.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -92,6 +94,7 @@
 				B8518D4226FBAB1600CE5244 /* SceneDelegate.swift */,
 				B8518D4426FBAB1600CE5244 /* ViewController.swift */,
 				B8518D5626FBAFF200CE5244 /* ImageViewController.swift */,
+				B8780003274C969D00EB7F99 /* MapViewController.swift */,
 				B8518D4626FBAB1600CE5244 /* Main.storyboard */,
 				B8518D4926FBAB1700CE5244 /* Assets.xcassets */,
 				B8518D4B26FBAB1700CE5244 /* LaunchScreen.storyboard */,
@@ -112,6 +115,7 @@
 				B8518D3A26FBAB1600CE5244 /* Frameworks */,
 				B8518D3B26FBAB1600CE5244 /* Resources */,
 				B8FA0D9B4452978060AF7D08 /* [CP] Embed Pods Frameworks */,
+				EC3A9302F31CC686DA4418AF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -209,6 +213,23 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Sign_Reader3/Pods-Sign_Reader3-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		EC3A9302F31CC686DA4418AF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sign_Reader3/Pods-Sign_Reader3-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sign_Reader3/Pods-Sign_Reader3-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Sign_Reader3/Pods-Sign_Reader3-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -219,6 +240,7 @@
 				B8518D4526FBAB1600CE5244 /* ViewController.swift in Sources */,
 				B8518D4126FBAB1600CE5244 /* AppDelegate.swift in Sources */,
 				B8518D5726FBAFF200CE5244 /* ImageViewController.swift in Sources */,
+				B8780004274C969D00EB7F99 /* MapViewController.swift in Sources */,
 				B8518D4326FBAB1600CE5244 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

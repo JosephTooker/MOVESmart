@@ -16,32 +16,53 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fop-ZM-lEX">
-                                <rect key="frame" x="20" y="0.0" width="335" height="667"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fop-ZM-lEX">
+                                <rect key="frame" x="8" y="0.0" width="360" height="328"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <state key="normal" title="Tap the screen to get started"/>
+                                <state key="normal" title="Tap the top of the screen to open camera"/>
                                 <connections>
                                     <segue destination="HLc-Ur-JlE" kind="presentation" modalPresentationStyle="fullScreen" id="cxn-P1-q7e"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mf1-iv-PjJ">
+                                <rect key="frame" x="8" y="336" width="360" height="311"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <state key="normal" title="Tap the bottom of the screen to open map"/>
+                                <connections>
+                                    <segue destination="e9J-Vw-Rck" kind="show" id="ggy-vS-QKP"/>
                                 </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="fop-ZM-lEX" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="TJe-rf-PSV"/>
-                            <constraint firstItem="fop-ZM-lEX" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="XZf-2s-Hlr"/>
-                            <constraint firstItem="fop-ZM-lEX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="nmU-hw-rBp"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="fop-ZM-lEX" secondAttribute="trailing" constant="20" id="vIZ-6I-xJO"/>
-                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Ywo-F0-xQ7"/>
                     <connections>
+                        <outlet property="mapButton" destination="mf1-iv-PjJ" id="Qcy-FG-FWN"/>
                         <outlet property="tapScreen" destination="fop-ZM-lEX" id="xfK-g0-psg"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="18.840579710144929" y="75.669642857142847"/>
+            <point key="canvasLocation" x="18.399999999999999" y="75.112443778110944"/>
+        </scene>
+        <!--Map View Controller-->
+        <scene sceneID="5Bk-SS-Enk">
+            <objects>
+                <viewController modalPresentationStyle="fullScreen" id="e9J-Vw-Rck" customClass="MapViewController" customModule="Sign_Reader3" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="gHd-vD-2ny">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="l53-xN-UT7"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="NQE-DP-WgG"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="N6g-uZ-pAS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1018" y="487"/>
         </scene>
         <!--Image View Controller-->
         <scene sceneID="AUW-Dy-cr4">
@@ -59,7 +80,7 @@
                                     <outletCollection property="gestureRecognizers" destination="Hj5-Em-pMA" appends="YES" id="nI0-HF-cKK"/>
                                 </connections>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="topRight" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Text from image will be displayed here" lineBreakMode="wordWrap" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3aK-jA-cyn">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="topRight" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Text from image will be displayed here. Tap the top left to go back." lineBreakMode="wordWrap" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3aK-jA-cyn">
                                 <rect key="frame" x="-1" y="431" width="376" height="236"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
@@ -90,7 +111,7 @@
                     </connections>
                 </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="959" y="-226"/>
+            <point key="canvasLocation" x="957.60000000000002" y="-226.23688155922042"/>
         </scene>
     </scenes>
     <resources>
