@@ -5,67 +5,58 @@
 //  Created by Joseph Tooker on 11/22/21.
 //
 
-import CoreLocation
-import GoogleMaps
-import GooglePlaces
 import UIKit
+import Foundation
+import FirebaseFirestore
 
-class MapViewController: UIViewController, CLLocationManagerDelegate {
-
-    var locationManager: CLLocationManager!
-    var currentLocation: CLLocation?
-    var mapView: GMSMapView!
-    var placesClient: GMSPlacesClient!
-    var preciseLocationZoomLevel: Float = 15.0
-    var approximateLocationZoomLevel: Float = 10.0
-    var location: CLLocationCoordinate2D!
-
+class MapViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
+    
+    @IBOutlet weak var tableView: UITableView!
+    
+    let database = Firestore.firestore()
+    var data = [String]()
+    var count = 0
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        // Initialize the location manager.
-        locationManager = CLLocationManager()
-        locationManager.desiredAccuracy = kCLLocationAccuracyBest
-        locationManager.requestWhenInUseAuthorization()
-        locationManager.distanceFilter = 50
-        locationManager.startUpdatingLocation()
-        locationManager.delegate = self
-
-        placesClient = GMSPlacesClient.shared()
-    
-        
-        location = CLLocationCoordinate2D(latitude: -33.869405, longitude: 151.199)
-        let zoomLevel = locationManager.accuracyAuthorization == .fullAccuracy ? preciseLocationZoomLevel : approximateLocationZoomLevel
-        let camera = GMSCameraPosition.camera(withLatitude: location.latitude, longitude: location.longitude, zoom: zoomLevel)
-        mapView = GMSMapView(frame: .zero, camera: camera)
-        mapView.settings.compassButton = true
-        mapView.settings.myLocationButton = true
-        mapView.accessibilityElementsHidden = false
-        mapView.isMyLocationEnabled = true
-        self.view = mapView
+        tableView.dataSource = self
+        tableView.delegate = self
         
     }
     
-    
-
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    func findCount() async {
+        do {
+            count = try await database.collection("agency").getDocuments().count
+        } catch {
+            print("error finding count")
+        }
     }
-    */
     
-    
-    func mapView(mapView: GMSMapView!, didLongPressAt coordinate: CLLocationCoordinate2D) {
-         let marker = GMSMarker(position: coordinate)
-         marker.title = "Hello World"
-         marker.map = mapView
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return count+1
     }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "BusCell") as! BusCell
+        
+        database.collection("agency").getDocuments() { (querySnapshot, err) in
+            if let err = err {
+                print("Error getting documents: \(err)")
+            } else {
+                for document in querySnapshot!.documents {
+                    //print("\(document.documentID) => \(document.data())")
+                    cell.nameLabel.text = document.data()["agency_name"] as! String
+                    cell.numberLabel.text = document.data()["agency_phone"] as! String
+                    cell.urlLabel.text = document.data()["agency_url"] as! String
+
+                }
+            }
+        }
+        
+        return cell
+    }
+    
 
 
 }

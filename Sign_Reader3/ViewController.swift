@@ -14,18 +14,22 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var tapScreen: UIButton!
     @IBOutlet weak var mapButton: UIButton!
+    @IBOutlet weak var bottomButton: UIButton!
     
         
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        var speech = tapScreen.currentTitle!
-        speech += " "
-        speech += mapButton.currentTitle!
+        
+        var speech = tapScreen.titleLabel!.text
+        speech! += " "
+        speech! += mapButton.titleLabel!.text!
+        speech! += " "
+        speech! += bottomButton.titleLabel!.text!
         
         
         let voice = AVSpeechSynthesisVoice(language: "en-au")
-        let toSay = AVSpeechUtterance(string : speech)
+        let toSay = AVSpeechUtterance(string : speech!)
         toSay.voice = voice
         let speak = AVSpeechSynthesizer()
         speak.speak(toSay)

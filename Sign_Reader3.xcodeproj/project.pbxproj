@@ -3,11 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		589656A006673957AD8BC503 /* Pods_Sign_Reader3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D405A3B2542A6C1EA23F25DD /* Pods_Sign_Reader3.framework */; };
+		4E144CEBF8E5537E5D58755B /* Pods_Sign_Reader3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C5BD12DB5B8C9F850B8B505 /* Pods_Sign_Reader3.framework */; };
 		B8518D4126FBAB1600CE5244 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8518D4026FBAB1600CE5244 /* AppDelegate.swift */; };
 		B8518D4326FBAB1600CE5244 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8518D4226FBAB1600CE5244 /* SceneDelegate.swift */; };
 		B8518D4526FBAB1600CE5244 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8518D4426FBAB1600CE5244 /* ViewController.swift */; };
@@ -16,12 +16,23 @@
 		B8518D4D26FBAB1700CE5244 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8518D4B26FBAB1700CE5244 /* LaunchScreen.storyboard */; };
 		B8518D5526FBAD0E00CE5244 /* TapScreen.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B8518D5426FBAD0E00CE5244 /* TapScreen.mp3 */; };
 		B8518D5726FBAFF200CE5244 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8518D5626FBAFF200CE5244 /* ImageViewController.swift */; };
-		B857D0952729CE690064D380 /* testImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B857D0942729CE690064D380 /* testImage.jpg */; };
 		B8780004274C969D00EB7F99 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8780003274C969D00EB7F99 /* MapViewController.swift */; };
+		B8877ABC2887384600B6BA9B /* MOVESmart Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = B8877ABB2887384500B6BA9B /* MOVESmart Logo.png */; };
+		B8877AC1288C74E600B6BA9B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B8877AC0288C74E600B6BA9B /* GoogleService-Info.plist */; };
+		B8877AC4288C768C00B6BA9B /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = B8877AC3288C768C00B6BA9B /* FirebaseAnalytics */; };
+		B8877AC6288C768C00B6BA9B /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = B8877AC5288C768C00B6BA9B /* FirebaseAnalyticsSwift */; };
+		B8877AC8288C768C00B6BA9B /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = B8877AC7288C768C00B6BA9B /* FirebaseAuth */; };
+		B8877ACA288C768C00B6BA9B /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = B8877AC9288C768C00B6BA9B /* FirebaseDatabase */; };
+		B8877ACC288C768C00B6BA9B /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = B8877ACB288C768C00B6BA9B /* FirebaseDatabaseSwift */; };
+		B8877ACE288C768C00B6BA9B /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = B8877ACD288C768C00B6BA9B /* FirebaseFirestore */; };
+		B8877AD0288C768C00B6BA9B /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = B8877ACF288C768C00B6BA9B /* FirebaseFirestoreSwift */; };
+		B88CCEE528919AA900171012 /* BusCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88CCEE428919AA900171012 /* BusCell.swift */; };
+		B88CCEE7289AEDCD00171012 /* BottomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88CCEE6289AEDCC00171012 /* BottomViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B68D3F3E282959CD29F0CC33 /* Pods-Sign_Reader3.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sign_Reader3.release.xcconfig"; path = "Target Support Files/Pods-Sign_Reader3/Pods-Sign_Reader3.release.xcconfig"; sourceTree = "<group>"; };
+		1D27AEE0266E8ABB720B5F62 /* Pods-Sign_Reader3.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sign_Reader3.debug.xcconfig"; path = "Target Support Files/Pods-Sign_Reader3/Pods-Sign_Reader3.debug.xcconfig"; sourceTree = "<group>"; };
+		3C5BD12DB5B8C9F850B8B505 /* Pods_Sign_Reader3.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sign_Reader3.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8518D3D26FBAB1600CE5244 /* Sign_Reader3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sign_Reader3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8518D4026FBAB1600CE5244 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B8518D4226FBAB1600CE5244 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -32,10 +43,13 @@
 		B8518D4E26FBAB1700CE5244 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B8518D5426FBAD0E00CE5244 /* TapScreen.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = TapScreen.mp3; sourceTree = "<group>"; };
 		B8518D5626FBAFF200CE5244 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
-		B857D0942729CE690064D380 /* testImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = testImage.jpg; sourceTree = "<group>"; };
 		B8780003274C969D00EB7F99 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
-		C03A327033289B0699A594DD /* Pods-Sign_Reader3.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sign_Reader3.debug.xcconfig"; path = "Target Support Files/Pods-Sign_Reader3/Pods-Sign_Reader3.debug.xcconfig"; sourceTree = "<group>"; };
-		D405A3B2542A6C1EA23F25DD /* Pods_Sign_Reader3.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sign_Reader3.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8877ABB2887384500B6BA9B /* MOVESmart Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MOVESmart Logo.png"; sourceTree = "<group>"; };
+		B8877ABF2889FAA800B6BA9B /* google_transit_staten_island */ = {isa = PBXFileReference; lastKnownFileType = folder; path = google_transit_staten_island; sourceTree = "<group>"; };
+		B8877AC0288C74E600B6BA9B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B88CCEE428919AA900171012 /* BusCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusCell.swift; sourceTree = "<group>"; };
+		B88CCEE6289AEDCC00171012 /* BottomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomViewController.swift; sourceTree = "<group>"; };
+		F0DF09ADDEC4B2E169CB7BC7 /* Pods-Sign_Reader3.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sign_Reader3.release.xcconfig"; path = "Target Support Files/Pods-Sign_Reader3/Pods-Sign_Reader3.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,7 +57,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				589656A006673957AD8BC503 /* Pods_Sign_Reader3.framework in Frameworks */,
+				B8877ACC288C768C00B6BA9B /* FirebaseDatabaseSwift in Frameworks */,
+				B8877ACA288C768C00B6BA9B /* FirebaseDatabase in Frameworks */,
+				B8877AC6288C768C00B6BA9B /* FirebaseAnalyticsSwift in Frameworks */,
+				B8877AC4288C768C00B6BA9B /* FirebaseAnalytics in Frameworks */,
+				B8877AC8288C768C00B6BA9B /* FirebaseAuth in Frameworks */,
+				B8877ACE288C768C00B6BA9B /* FirebaseFirestore in Frameworks */,
+				B8877AD0288C768C00B6BA9B /* FirebaseFirestoreSwift in Frameworks */,
+				4E144CEBF8E5537E5D58755B /* Pods_Sign_Reader3.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,18 +74,10 @@
 		2BFB283B2F43EE1C5A998B71 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				C03A327033289B0699A594DD /* Pods-Sign_Reader3.debug.xcconfig */,
-				B68D3F3E282959CD29F0CC33 /* Pods-Sign_Reader3.release.xcconfig */,
+				1D27AEE0266E8ABB720B5F62 /* Pods-Sign_Reader3.debug.xcconfig */,
+				F0DF09ADDEC4B2E169CB7BC7 /* Pods-Sign_Reader3.release.xcconfig */,
 			);
 			path = Pods;
-			sourceTree = "<group>";
-		};
-		3E2F88749D45388B344CB774 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				D405A3B2542A6C1EA23F25DD /* Pods_Sign_Reader3.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		B8518D3426FBAB1600CE5244 = {
@@ -73,7 +86,7 @@
 				B8518D3F26FBAB1600CE5244 /* Sign_Reader3 */,
 				B8518D3E26FBAB1600CE5244 /* Products */,
 				2BFB283B2F43EE1C5A998B71 /* Pods */,
-				3E2F88749D45388B344CB774 /* Frameworks */,
+				EF03EDE567251738C56FDE84 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -88,19 +101,31 @@
 		B8518D3F26FBAB1600CE5244 /* Sign_Reader3 */ = {
 			isa = PBXGroup;
 			children = (
+				B8877ABF2889FAA800B6BA9B /* google_transit_staten_island */,
 				B8518D5426FBAD0E00CE5244 /* TapScreen.mp3 */,
-				B857D0942729CE690064D380 /* testImage.jpg */,
+				B8877ABB2887384500B6BA9B /* MOVESmart Logo.png */,
 				B8518D4026FBAB1600CE5244 /* AppDelegate.swift */,
 				B8518D4226FBAB1600CE5244 /* SceneDelegate.swift */,
 				B8518D4426FBAB1600CE5244 /* ViewController.swift */,
 				B8518D5626FBAFF200CE5244 /* ImageViewController.swift */,
 				B8780003274C969D00EB7F99 /* MapViewController.swift */,
+				B88CCEE6289AEDCC00171012 /* BottomViewController.swift */,
 				B8518D4626FBAB1600CE5244 /* Main.storyboard */,
+				B88CCEE428919AA900171012 /* BusCell.swift */,
 				B8518D4926FBAB1700CE5244 /* Assets.xcassets */,
 				B8518D4B26FBAB1700CE5244 /* LaunchScreen.storyboard */,
+				B8877AC0288C74E600B6BA9B /* GoogleService-Info.plist */,
 				B8518D4E26FBAB1700CE5244 /* Info.plist */,
 			);
 			path = Sign_Reader3;
+			sourceTree = "<group>";
+		};
+		EF03EDE567251738C56FDE84 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C5BD12DB5B8C9F850B8B505 /* Pods_Sign_Reader3.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -110,18 +135,27 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B8518D5126FBAB1700CE5244 /* Build configuration list for PBXNativeTarget "Sign_Reader3" */;
 			buildPhases = (
-				447740363C2862D60893C74C /* [CP] Check Pods Manifest.lock */,
+				2A65A76799A4CD545DF87993 /* [CP] Check Pods Manifest.lock */,
 				B8518D3926FBAB1600CE5244 /* Sources */,
 				B8518D3A26FBAB1600CE5244 /* Frameworks */,
 				B8518D3B26FBAB1600CE5244 /* Resources */,
-				B8FA0D9B4452978060AF7D08 /* [CP] Embed Pods Frameworks */,
-				EC3A9302F31CC686DA4418AF /* [CP] Copy Pods Resources */,
+				153ABE4136013FA89AE50E3D /* [CP] Embed Pods Frameworks */,
+				0F3D0BB4B63E04004F8B3180 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = Sign_Reader3;
+			packageProductDependencies = (
+				B8877AC3288C768C00B6BA9B /* FirebaseAnalytics */,
+				B8877AC5288C768C00B6BA9B /* FirebaseAnalyticsSwift */,
+				B8877AC7288C768C00B6BA9B /* FirebaseAuth */,
+				B8877AC9288C768C00B6BA9B /* FirebaseDatabase */,
+				B8877ACB288C768C00B6BA9B /* FirebaseDatabaseSwift */,
+				B8877ACD288C768C00B6BA9B /* FirebaseFirestore */,
+				B8877ACF288C768C00B6BA9B /* FirebaseFirestoreSwift */,
+			);
 			productName = Sign_Reader3;
 			productReference = B8518D3D26FBAB1600CE5244 /* Sign_Reader3.app */;
 			productType = "com.apple.product-type.application";
@@ -149,6 +183,9 @@
 				Base,
 			);
 			mainGroup = B8518D3426FBAB1600CE5244;
+			packageReferences = (
+				B8877AC2288C768C00B6BA9B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = B8518D3E26FBAB1600CE5244 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -163,18 +200,53 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8877ABC2887384600B6BA9B /* MOVESmart Logo.png in Resources */,
 				B8518D5526FBAD0E00CE5244 /* TapScreen.mp3 in Resources */,
 				B8518D4D26FBAB1700CE5244 /* LaunchScreen.storyboard in Resources */,
 				B8518D4A26FBAB1700CE5244 /* Assets.xcassets in Resources */,
 				B8518D4826FBAB1600CE5244 /* Main.storyboard in Resources */,
-				B857D0952729CE690064D380 /* testImage.jpg in Resources */,
+				B8877AC1288C74E600B6BA9B /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		447740363C2862D60893C74C /* [CP] Check Pods Manifest.lock */ = {
+		0F3D0BB4B63E04004F8B3180 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sign_Reader3/Pods-Sign_Reader3-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sign_Reader3/Pods-Sign_Reader3-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Sign_Reader3/Pods-Sign_Reader3-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		153ABE4136013FA89AE50E3D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sign_Reader3/Pods-Sign_Reader3-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sign_Reader3/Pods-Sign_Reader3-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Sign_Reader3/Pods-Sign_Reader3-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2A65A76799A4CD545DF87993 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -196,40 +268,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		B8FA0D9B4452978060AF7D08 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Sign_Reader3/Pods-Sign_Reader3-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Sign_Reader3/Pods-Sign_Reader3-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Sign_Reader3/Pods-Sign_Reader3-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		EC3A9302F31CC686DA4418AF /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Sign_Reader3/Pods-Sign_Reader3-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Sign_Reader3/Pods-Sign_Reader3-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Sign_Reader3/Pods-Sign_Reader3-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -237,10 +275,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B88CCEE7289AEDCD00171012 /* BottomViewController.swift in Sources */,
 				B8518D4526FBAB1600CE5244 /* ViewController.swift in Sources */,
 				B8518D4126FBAB1600CE5244 /* AppDelegate.swift in Sources */,
 				B8518D5726FBAFF200CE5244 /* ImageViewController.swift in Sources */,
 				B8780004274C969D00EB7F99 /* MapViewController.swift in Sources */,
+				B88CCEE528919AA900171012 /* BusCell.swift in Sources */,
 				B8518D4326FBAB1600CE5244 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -385,7 +425,7 @@
 		};
 		B8518D5226FBAB1700CE5244 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C03A327033289B0699A594DD /* Pods-Sign_Reader3.debug.xcconfig */;
+			baseConfigurationReference = 1D27AEE0266E8ABB720B5F62 /* Pods-Sign_Reader3.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -405,7 +445,7 @@
 		};
 		B8518D5326FBAB1700CE5244 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B68D3F3E282959CD29F0CC33 /* Pods-Sign_Reader3.release.xcconfig */;
+			baseConfigurationReference = F0DF09ADDEC4B2E169CB7BC7 /* Pods-Sign_Reader3.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -445,6 +485,55 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B8877AC2288C768C00B6BA9B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B8877AC3288C768C00B6BA9B /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B8877AC2288C768C00B6BA9B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		B8877AC5288C768C00B6BA9B /* FirebaseAnalyticsSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B8877AC2288C768C00B6BA9B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsSwift;
+		};
+		B8877AC7288C768C00B6BA9B /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B8877AC2288C768C00B6BA9B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		B8877AC9288C768C00B6BA9B /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B8877AC2288C768C00B6BA9B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		B8877ACB288C768C00B6BA9B /* FirebaseDatabaseSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B8877AC2288C768C00B6BA9B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabaseSwift;
+		};
+		B8877ACD288C768C00B6BA9B /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B8877AC2288C768C00B6BA9B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		B8877ACF288C768C00B6BA9B /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B8877AC2288C768C00B6BA9B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B8518D3526FBAB1600CE5244 /* Project object */;
 }
