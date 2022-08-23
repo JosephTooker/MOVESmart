@@ -28,6 +28,7 @@
 		B8877AD0288C768C00B6BA9B /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = B8877ACF288C768C00B6BA9B /* FirebaseFirestoreSwift */; };
 		B88CCEE528919AA900171012 /* BusCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88CCEE428919AA900171012 /* BusCell.swift */; };
 		B88CCEE7289AEDCD00171012 /* BottomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88CCEE6289AEDCC00171012 /* BottomViewController.swift */; };
+		B8D76CD928AFF0AF0038956E /* BoxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D76CD828AFF0AF0038956E /* BoxViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +50,7 @@
 		B8877AC0288C74E600B6BA9B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B88CCEE428919AA900171012 /* BusCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusCell.swift; sourceTree = "<group>"; };
 		B88CCEE6289AEDCC00171012 /* BottomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomViewController.swift; sourceTree = "<group>"; };
+		B8D76CD828AFF0AF0038956E /* BoxViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxViewController.swift; sourceTree = "<group>"; };
 		F0DF09ADDEC4B2E169CB7BC7 /* Pods-Sign_Reader3.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sign_Reader3.release.xcconfig"; path = "Target Support Files/Pods-Sign_Reader3/Pods-Sign_Reader3.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -110,6 +112,7 @@
 				B8518D5626FBAFF200CE5244 /* ImageViewController.swift */,
 				B8780003274C969D00EB7F99 /* MapViewController.swift */,
 				B88CCEE6289AEDCC00171012 /* BottomViewController.swift */,
+				B8D76CD828AFF0AF0038956E /* BoxViewController.swift */,
 				B8518D4626FBAB1600CE5244 /* Main.storyboard */,
 				B88CCEE428919AA900171012 /* BusCell.swift */,
 				B8518D4926FBAB1700CE5244 /* Assets.xcassets */,
@@ -277,6 +280,7 @@
 			files = (
 				B88CCEE7289AEDCD00171012 /* BottomViewController.swift in Sources */,
 				B8518D4526FBAB1600CE5244 /* ViewController.swift in Sources */,
+				B8D76CD928AFF0AF0038956E /* BoxViewController.swift in Sources */,
 				B8518D4126FBAB1600CE5244 /* AppDelegate.swift in Sources */,
 				B8518D5726FBAFF200CE5244 /* ImageViewController.swift in Sources */,
 				B8780004274C969D00EB7F99 /* MapViewController.swift in Sources */,
